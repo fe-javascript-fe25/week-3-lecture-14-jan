@@ -117,6 +117,7 @@ function playSingleRound() {
     }
 }
 
+// Vad händer egentligen här?
 function resolveTie(cardOne, cardTwo) {
     if (cardOne.suit === 'Hearts') {
         game.players.one.score++;
